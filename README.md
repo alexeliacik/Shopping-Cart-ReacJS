@@ -70,26 +70,18 @@ I applied  'toFixed(2)' method to the total price. Users don't see large numbers
 <hr>
 
 <h2>CSS</h2>
-
 <strong> I used Grid CSS in this project. It was easy to make the app responsive. </strong>
-
 &nbsp;
 ![ConditionalGrid](https://user-images.githubusercontent.com/57728302/76482170-c7de8400-63e9-11ea-9434-50a9bce8861b.png)
 &nbsp;
-
 <hr>
-
 <strong>I animated counter digit conditionaly. Users see different animations when they increase or decrease the item count.</strong>
-
 &nbsp;
 ![countUpandDownFunc](https://user-images.githubusercontent.com/57728302/76482085-906fd780-63e9-11ea-9311-268517943b2d.png)
 ![countUpandDownAnimation](https://user-images.githubusercontent.com/57728302/76482087-91a10480-63e9-11ea-9c1e-3722c63fe221.png)
 &nbsp;
-
 <hr>
-
 <strong> I used the React Transition Group to animate the item when I add or delete it </strong>
-
 &nbsp;
 ![AnimateListItems](https://user-images.githubusercontent.com/57728302/76482302-26a3fd80-63ea-11ea-98ab-31d0d30bc011.png)
 &nbsp;
