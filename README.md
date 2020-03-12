@@ -56,8 +56,6 @@
 
 <h2> For Beter User Experience </h2>
 
-&nbsp;
-
 <strong>
 Users can't decrease the item count if it is equal to the 0. <br>
 Users can't add an item if there is no name.<br>
@@ -73,97 +71,33 @@ I applied  'toFixed(2)' method to the total price. Users don't see large numbers
 
 <h2>CSS</h2>
 
-<strong> For UI design I used 'font-size: 62.5%' technic. Because it is effortless to use and make your design responsive. Now see the picture below. </strong>
+<strong> I used Grid CSS in this project. It was easy to make the app responsive. </strong>
 
 &nbsp;
-![a5](https://user-images.githubusercontent.com/57728302/76172731-16ccb500-616f-11ea-9a4e-50e4eeebc723.png)
-
-&nbsp;
-
-<hr>
-
-<strong> After I made 0 all margins and paddings for whole dom elements, including before and after elements, I sat the font size to %62.5 with the help of Styled Components createGlobalStyle. It means every one rem equal 10px now. Of course, I could use 10px instead of 1rem. But if you use for your whole parameters; when I start to make the website responsive for small screen devices, all I have to do just decrease the font size and now whole 1rems 8.5px instead of 10. I reached this result with just decreasing HTML font size. Font sizes, margins, paddings, height and widths and even box-shadows have rem value. With a small decrease of HTML font-size value, my website almost full responsive for I tablet except a couple of little things. See the gif below... </strong>
-
-&nbsp;
-![responsiveGif](https://user-images.githubusercontent.com/57728302/76023709-ac5e0f80-5ef7-11ea-8f93-ace5c5e87111.gif)
-
+![ConditionalGrid](https://user-images.githubusercontent.com/57728302/76482170-c7de8400-63e9-11ea-9434-50a9bce8861b.png)
 &nbsp;
 
 <hr>
 
-<strong> Curved header with adding the Header '::after' pseudo element. </strong>
+<strong>I animated counter digit conditionaly. Users see different animations when they increase or decrease the item count.</strong>
 
 &nbsp;
-![after](https://user-images.githubusercontent.com/57728302/76023925-2db5a200-5ef8-11ea-8bd1-0ad4cc01f3f5.JPG)
-
-&nbsp;
-
-<hr>
-
-<strong>With the power of the Styled Components, you can see how I animated when the user selects a category or difficulty. For conditional animation I used Styled Components 'css' helper. </strong>
-
-&nbsp;
-![a6](https://user-images.githubusercontent.com/57728302/76172732-16ccb500-616f-11ea-9688-aff1635529a1.png)
-&nbsp;
-![selectaniamtion](https://user-images.githubusercontent.com/57728302/76024307-d95ef200-5ef8-11ea-997a-bacc134a2e1b.gif)
-
+![countUpandDownFunc](https://user-images.githubusercontent.com/57728302/76482085-906fd780-63e9-11ea-9311-268517943b2d.png)
+![countUpandDownAnimation](https://user-images.githubusercontent.com/57728302/76482087-91a10480-63e9-11ea-9c1e-3722c63fe221.png)
 &nbsp;
 
 <hr>
 
-<strong>As you can see, remained time connected with the pseudo-element of the header. It changes color and font size if the user has fewer than 10 seconds.</strong>
+<strong> I used the React Transition Group to animate the item when I add or delete it </strong>
 
 &nbsp;
-![a7](https://user-images.githubusercontent.com/57728302/76172733-16ccb500-616f-11ea-8dac-96ce591a3c8c.png)
-&nbsp;
-![remined](https://user-images.githubusercontent.com/57728302/76024905-e29c8e80-5ef9-11ea-8a5f-69fcaff30690.gif)
-
-&nbsp;
-
-<hr>
-
-<strong>I created this beautiful hover-select animation with the help of Styled Components again. I have different transition timings for different CSS properties. Also, with the 'cubic-bezier' property, I made animation more sweeter. </strong>
-
-&nbsp;
-![a8](https://user-images.githubusercontent.com/57728302/76172734-17654b80-616f-11ea-88d2-a9356e845823.png)
-&nbsp;
-![answerAnimation](https://user-images.githubusercontent.com/57728302/76025289-aa498000-5efa-11ea-99d9-bd6611e383ea.gif)
-
-&nbsp;
-
-<hr>
-
-<strong>I made this animation with different animation properties and different animations timings. </strong>
-
-&nbsp;
-![a9](https://user-images.githubusercontent.com/57728302/76172735-17654b80-616f-11ea-9bdc-46d23604c064.png)
-&nbsp;
-![answerslide animation](https://user-images.githubusercontent.com/57728302/76025990-f648f480-5efb-11ea-82bc-a5183e1304ee.gif)
-
-&nbsp;
-
-<hr>
-
-<strong>I accomplished this style and animation with the help of React Transition Group. I could animate while unmounting stats. Also, I showed the user correct and wrong answers with different color and background colors. If the user selects the answer and it is correct or if the user selects the answer and it is incorrect or if the user doesn't select an answer, style changes. With the nested Ternary Operator, I accomplished this result with just one line code. </strong>
-
-&nbsp;
-![a10](https://user-images.githubusercontent.com/57728302/76172736-17654b80-616f-11ea-96d2-67f81f52c5f2.png)
-&nbsp;
-![a11](https://user-images.githubusercontent.com/57728302/76172726-159b8800-616f-11ea-848d-888a51fa941f.png)
-
-&nbsp;
-
-<hr>
-
-&nbsp;
-![nested ternary gif](https://user-images.githubusercontent.com/57728302/76026551-001f2780-5efd-11ea-9671-81c1884775b7.gif)
-
+![AnimateListItems](https://user-images.githubusercontent.com/57728302/76482302-26a3fd80-63ea-11ea-98ab-31d0d30bc011.png)
 &nbsp;
 
 <hr>
 
 <h3>Netlify Link: https://festive-hodgkin-a75a63.netlify.com</h3>
-<h4><strong>Used technologies: </strong> React JS (React Hooks, Styled Components, React Transition Group, React Router), HTML, CSS.  </h4>
+<h4><strong>Used technologies: </strong> React JS (React Hooks, Styled Components, React Transition Group, Uuid),  HTML, CSS.  </h4>
 
 
 
