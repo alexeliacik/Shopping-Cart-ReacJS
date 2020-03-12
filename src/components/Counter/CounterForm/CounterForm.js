@@ -5,11 +5,11 @@ const CounterForm = ({ nameChangeHandler, priceChangeHandler, saveItemHandler, n
   return (
     <StyledCounterForm>
       <form className='form' onSubmit={saveItemHandler}>
-        <input id='name' className='input' type='text' placeholder='Name' onChange={nameChangeHandler} value={name} />
+        <input id='name' className='input' type='text' placeholder='Name' onChange={nameChangeHandler} autoComplete='off' value={name} />
         <label className='label nameLabel' htmlFor='name'>
           Name
         </label>
-        <input id='price' className='input' type='number' placeholder='Price' onChange={priceChangeHandler} value={price} />
+        <input id='price' className='input' type='number' placeholder='Price' onChange={priceChangeHandler} autoComplete='off' value={price} />
         <label className='label priceLabel' htmlFor='price'>
           Price
         </label>
