@@ -92,7 +92,7 @@ I applied  'toFixed(2)' method to the total price. Users don't see large numbers
 <hr>
 
 <h3>Netlify Link: https://festive-hodgkin-a75a63.netlify.com</h3>
-<h4><strong>Used technologies: </strong> React JS (React Hooks, Styled Components, React Transition Group, Uuid),  HTML, CSS.  </h4>
+<h4><strong>Used technologies: </strong> React JS (React Hooks, Styled Components, React Transition Group, Material UI, Uuid),  HTML, CSS.  </h4>
 
 
 
