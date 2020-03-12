@@ -18,37 +18,37 @@
 <hr>
 
 
-<strong> I set name and price with the 'onChange' event. There was a problem with the number if you type '0' as a first number. I prevent it with the help of 'slice()' method if the first number of price equal to the '0'. </strong>
+<strong> I set the name and the price with the 'onChange' event. There was a problem with the 'priceValue' if user types '0' as a first number. I prevent it with the help of 'slice()' method if the first number of price equal to the '0'. </strong>
 
 &nbsp;
-![a2](https://user-images.githubusercontent.com/57728302/76172728-16341e80-616f-11ea-92ab-b7784161e5c4.png)
-
-&nbsp;
-
-<hr>
-
-<strong> When I handle data from API, there was a character problem; I solved it with replace function.</strong>
-
-&nbsp;
-![replaceFunction](https://user-images.githubusercontent.com/57728302/76017572-d231e700-5eec-11ea-9554-b45210256156.JPG)
+![priceAndNameChange](https://user-images.githubusercontent.com/57728302/76480641-b72c0f00-63e5-11ea-8352-f81380bcf6d5.png)
 
 &nbsp;
 
 <hr>
 
-<strong> I showed the user question's category and difficulty level for each question. When I took data from API, some of them had 'Category: ' part some of them not. I removed 'Category: ' conditionally if they have and added to all of them. With this technic I prevented duplication of 'Category: '. The difficulty level had not capitalized; I made it capitalized with the help of 'toUpperCase()' and 'slice()' methods.</strong>
+<strong>After handling values, I save the item when the user click the 'ADD' button. I prevented submitting and showed the snackbar alert if values are not valid. If values are valid, I created a new object and added it to my 'item' array for mapping through on it. I calculated the total price, reset name, price and count values and showed user a message with the alert.</strong>
 
 &nbsp;
-![a3](https://user-images.githubusercontent.com/57728302/76172729-16341e80-616f-11ea-8d63-5d4492055628.png)
+![SaveItem](https://user-images.githubusercontent.com/57728302/76480699-e6428080-63e5-11ea-89cf-6342c17474fb.png)
 
 &nbsp;
 
 <hr>
 
-<strong> At the end of the quiz, I needed to calculate the answered questions. I did it with nested map functions for all questions and their answers if the answer's 'isSelected === true'</strong>
+<strong>When the user clicks the 'X' button that stays right of each item, they can delete the item from the list. I did it with the filter method. After removing the item, I calculated the total price again and showed the user another alert. </strong>
 
 &nbsp;
-![a4](https://user-images.githubusercontent.com/57728302/76172730-16341e80-616f-11ea-9e27-a1bcb624b47c.png)
+![DeleteItemCoditionalMessage](https://user-images.githubusercontent.com/57728302/76481080-f27b0d80-63e6-11ea-931d-3e616b5790e2.png)
+
+&nbsp;
+
+<hr>
+
+<strong> I calculated the total price with the map function. I multiply price with count for each item and add to the 'total' variable.</strong>
+
+&nbsp;
+![TotalPriceHandler](https://user-images.githubusercontent.com/57728302/76481376-b1372d80-63e7-11ea-8919-277c56fe5edc.png)
 
 &nbsp;
 
