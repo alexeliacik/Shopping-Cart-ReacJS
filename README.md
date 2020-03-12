@@ -59,13 +59,13 @@
 &nbsp;
 
 <strong>
-If the user doesn't fill the name input area, app fires alert. </br>
-If the user doesn't select the category or the difficulty level, the app brings random questions for the unselected section. </br> 
-After the user fill up the input name area app doesn't ask username until the user clicks the rename icon.</br>
-The Previous button for the first question, the Next button for the last question, lifeline chance buttons if the user doesn't have any unclickable.</br>
-If only one answer remains after the user has used the lifeline chances, the application directly selects that answer and prevents using the 'Select Correct Answer' lifeline.</br>
-If less than 10 seconds remaining for the quiz, remaining time and it's line change the color, remaining time increases fint-size.</br>
-User can see quiz summary at the and of the quiz with selected and correct answers.
+Users can't decrease the item count if it is equal to the 0.
+Users can't add an item if there is no name.
+Users can't add negative price value or no price value.
+Users can't add 0 to the price as a first digit.
+If there is no item, I show a warning instead of an empty table; I don't show the total price. 
+Users can see the item name when they add to the list or delete it from the list on the alert.
+I applied  'toFixed(2)' method to the total price. Users don't see large numbers after the dot.
 </strong>
 &nbsp;
 
