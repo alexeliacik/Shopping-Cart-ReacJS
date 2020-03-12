@@ -59,12 +59,12 @@
 &nbsp;
 
 <strong>
-Users can't decrease the item count if it is equal to the 0.
-Users can't add an item if there is no name.
-Users can't add negative price value or no price value.
-Users can't add 0 to the price as a first digit.
-If there is no item, I show a warning instead of an empty table; I don't show the total price. 
-Users can see the item name when they add to the list or delete it from the list on the alert.
+Users can't decrease the item count if it is equal to the 0. <br>
+Users can't add an item if there is no name.<br>
+Users can't add negative price value or no price value.<br>
+Users can't add 0 to the price as a first digit.<br>
+If there is no item, I show a warning instead of an empty table; I don't show the total price. <br>
+Users can see the item name when they add to the list or delete it from the list on the alert.<br>
 I applied  'toFixed(2)' method to the total price. Users don't see large numbers after the dot.
 </strong>
 &nbsp;
