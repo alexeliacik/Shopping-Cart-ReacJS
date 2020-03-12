@@ -40,7 +40,11 @@ const Counter = () => {
     setName(e.target.value)
   }
   const priceChangeHandler = e => {
-    setPrice(e.target.value)
+    let priceValue = e.target.value
+    if (priceValue[0] === "0") {
+      priceValue = priceValue.slice(1)
+    }
+    setPrice(priceValue)
   }
 
   const saveItemHandler = e => {
