@@ -73,7 +73,7 @@ I applied  'toFixed(2)' method to the total price. Users don't see large numbers
 <strong> I used Grid CSS in this project. It was easy to make the app responsive. </strong>
 
 &nbsp;
-![ConditionalGrid](https://user-images.githubusercontent.com/57728302/76482170-c7de8400-63e9-11ea-9434-50a9bce8861b.png)
+![last](https://user-images.githubusercontent.com/57728302/77611486-d3f33700-6efb-11ea-9472-0b594895db42.png)
 &nbsp;
 <hr>
 <strong>I animated counter digit conditionaly. Users see different animations when they increase or decrease the item count.</strong>
