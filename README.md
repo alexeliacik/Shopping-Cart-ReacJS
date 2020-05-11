@@ -2,6 +2,8 @@
 
 <strong> In this project, I used the most updated React Js futures with Styled Components; I used React Transition Group to animate when to mount or unmount something from DOM. The project has a responsive design for all devices with the most updated CSS features. </strong>
 
+<h3>Netlify Link: https://festive-hodgkin-a75a63.netlify.com</h3>
+
 &nbsp;
 
 ![Main](https://user-images.githubusercontent.com/57728302/76480531-57356880-63e5-11ea-8ea1-3ecaf19dec96.gif)
